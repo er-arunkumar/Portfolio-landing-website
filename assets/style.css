@@ -9,21 +9,23 @@
     width: 100%;
     background-image:url(./images/hero_image.jpg) ;
     background-size: cover;
-    background-position: center ;
-   
+    background-position: center ;  
+}
+.company-name{
+    transform: translate(12%,100%);
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:10% ;
+    top:-10px; 
 }
 nav>ul{
     display: flex;
     list-style-type: none;
 }
 nav>ul>li{
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 nav>ul>li>a{
     text-decoration: none;
@@ -41,8 +43,20 @@ nav>ul>li>a:hover{
     width:104px;
     height: 33px;
     text-decoration: none;
-    padding: 8px;
+    padding: 6.5px 8px;
     color:#ebf6fc ;
     font-size: 16px;
     border-radius: 5px;
+    margin-left: 100px;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #0085be;
+    color: #0085be;
+    border-radius: 5px;
+}
+.content{
+    position: absolute;
+    transform: translate(50%,150%);
+    line-height: 200%;
 }
